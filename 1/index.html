@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+   <head>
+      <meta charset="utf-8"/>
+      <title>
+         Моя первая страница
+      </title>
+   </head>
+   <header>
+    <p>header</p>
+   </header>
+   <nav>
+        <ul>
+            <li><a href="#">Меню 1</a></li>
+            <li><a href="#">Меню 2</a></li>
+            <li><a href="#">Меню 3</a></li>
+        </ul>
+    </nav>
+    <div class="sidebar">
+        <aside>
+            <h1>Заголовок виджета 1</h1>
+            Виджет 1
+        </aside>
+        <aside>
+            <h1>Заголовок виджета 2</h1>
+            Виджет 2
+        </aside>
+    </div> 
+   <main>
+      Hello, World!
+      <div style="color: blue;">
+        <h1> Первый div</h1>
+      </div>
+      <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: aquamarine; border-color: black; padding: 50px 50px;">
+        <h2>Второй div</h2>
+      </div>
+      <a href="https://cs5.pikabu.ru/post_img/big/2015/06/04/11/1433446202_1725992411.jpg">Photo 1</a>
+      <a href="https://i.pinimg.com/originals/2a/f5/3d/2af53d8f1be483dd0e05b7b18142c33c.jpg">Photo 2</a>
+      <div>
+        <img src="https://cs5.pikabu.ru/post_img/big/2015/06/04/11/1433446202_1725992411.jpg" alt="картинка" style="align-items:center; height: 200px;width: 300px;">
+        <p>
+            Определяет текстовый абзац. Тег - p 
+        </p>
+        <p>
+            Является блочным элементом, всегда начинается с новой строки, абзацы текста идущие друг за другом разделяются между собой отбивкой. Величиной отбивки можно управлять с помощью стилей. Если закрывающего тега нет, считается, что конец абзаца совпадает с началом следующего блочного элемента.
+        </p>
+      </div>
+      <div>
+        Список:
+        <ul>
+            <li>Элемент списка</li>
+            <li>Элемент списка</li>
+            <li>Элемент списка</li>
+        </ul>
+        <p> Пример <span style="color:#ff0000;font-size:20px;">выделенного</span> текста </p>
+        <p> Пример <span style="color:#5d9453;font-size:10px;">выделенного</span> текста </p>
+        <pre> Пример
+            неформатированного
+            текста      с разным количеством        пробелов
+        </pre>
+        <p>
+            <button>Простая кнопка</button>
+            <br>
+            <button><div style="width: 20px;height:20px;border: 1px solid rgb(225, 12, 12);"></div>Кнопка c div`ом</button>
+            <br>
+            <button><img src="https://www.google.ru/images/srpr/logo11w.png">Кнопка c картинкой</button>
+        </p>
+        <p>Обычный текст</p>
+        <p><center>Центрированный текст</center></p>
+        <table border="4">
+            <caption>Таблица</caption>
+            <tbody><tr>
+             <th>Столбец 1</th>
+             <th>Столбец 2</th>
+             <th>Столбец 3</th>
+             <th>Столбец 4</th>
+            </tr>
+            <tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+            <tr><td>5</td><td>6</td><td>7</td><td>8</td></tr>
+            <tr><td>9</td><td>1</td><td>2</td><td>3</td></tr>
+        </tbody></table>
+        <br>
+        <form name="имя" action="url" target="окно" method="метод">
+            <input type="text" name="text1" size="10" maxlength="20" value="Текст">
+            <input type="password" name="text1" size="10" maxlength="20" value="Текст">
+            <br>
+            <input type="checkbox" name="ch1" value="Val1"> Выбор 1<br>
+            <input type="checkbox" name="ch2" value="Val2"> Выбор 2<br>
+            <input type="radio" checked="true" name="ch" value="Val1"> Выбор 1<br>
+            <input type="radio" name="ch" value="Val2"> Выбор 2<br>
+            <input type="submit" value="Отправить" name="submit">
+         
+            <input type="image" src="https://www.google.ru/images/srpr/logo11w.png">
+                    
+            <input type="reset" value="Очистить" name="reset">
+                    
+            <input type="button" value="Отправить" name="but1">
+            <input type="file" name="images">
+            <textarea cols="20" rows="20" wrap="virtual">Текст</textarea>
+            <select size="1" name="select">
+                <option value="val1" selected="">Значение 1
+                  </option>
+                <option value="val2">Значение 2
+                  </option>
+                <option value="val3">Значение 3
+            </option></select>
+        </form>
+      </div>
+
+    </main>
+    <footer>
+        <p class="copyright">© 2015 Copyright</p>
+</footer>
+</html>
